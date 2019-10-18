@@ -1,85 +1,85 @@
-{
-    "files.associations": {
-        "*.js": "javascriptreact",
-        "*.css": "less"
-    },
-    "files.exclude": {
-        "**/node_modules/**": true,
-        "**/javascript/includes/js/**": true,
-        "**/resources/images/text/**": true
-    },
-    "search.exclude": {
-        "**/node_modules/**": true,
-        "**/javascript/includes/js/**": true,
-        "**/resources/images/text/**": true
-    },
+// {
+//     "files.associations": {
+//         "*.js": "javascriptreact",
+//         "*.css": "less"
+//     },
+//     "files.exclude": {
+//         "**/node_modules/**": true,
+//         "**/javascript/includes/js/**": true,
+//         "**/resources/images/text/**": true
+//     },
+//     "search.exclude": {
+//         "**/node_modules/**": true,
+//         "**/javascript/includes/js/**": true,
+//         "**/resources/images/text/**": true
+//     },
 
-    "editor.fontSize": 18,
-    "editor.fontFamily": "FiraCode-Light",
-    "editor.formatOnPaste": true,
-    "editor.minimap.showSlider": "always",
-    "editor.multiCursorModifier": "ctrlCmd",
-    "atomKeymap.promptV3Features": true,
-    "emmet.showExpandedAbbreviation": "never",
-    "markdownlint.config": {
-        "blanks-around-lists": false,
-        "ul-indent": { "indent": 4 },
-        "line_length": false,
-        "no-multiple-blanks": false,
-        "no-blanks-blockquote": false
-    },
-    "workbench.colorCustomizations": {
-        "tab.activeBorder": "#2979FF"
-    },
-    "workbench.sideBar.location": "left",
-    "workbench.startupEditor": "newUntitledFile",
-    "window.zoomLevel": 0,
-    "java.errors.incompleteClasspath.severity": "ignore",
-    "extensions.ignoreRecommendations": false,
+//     "editor.fontSize": 18,
+//     "editor.fontFamily": "FiraCode-Light",
+//     "editor.formatOnPaste": true,
+//     "editor.minimap.showSlider": "always",
+//     "editor.multiCursorModifier": "ctrlCmd",
+//     "atomKeymap.promptV3Features": true,
+//     "emmet.showExpandedAbbreviation": "never",
+//     "markdownlint.config": {
+//         "blanks-around-lists": false,
+//         "ul-indent": { "indent": 4 },
+//         "line_length": false,
+//         "no-multiple-blanks": false,
+//         "no-blanks-blockquote": false
+//     },
+//     "workbench.colorCustomizations": {
+//         "tab.activeBorder": "#2979FF"
+//     },
+//     "workbench.sideBar.location": "left",
+//     "workbench.startupEditor": "newUntitledFile",
+//     "window.zoomLevel": 0,
+//     "java.errors.incompleteClasspath.severity": "ignore",
+//     "extensions.ignoreRecommendations": false,
 
 
-    "search.followSymlinks": false,
-    "zenMode.centerLayout": false,
-    "typescript.disableAutomaticTypeAcquisition": true,
-    "javascript.format.enable": false,
-    "typescript.format.enable": false,
-    "typescript.validate.enable": false,
-    "javascript.validate.enable": false,
-    "typescript.tsdk": null,
-    "typescript.tsc.autoDetect": "off",
-    "git.countBadge": "off",
-    "git.autorefresh": false,
-    "java.configuration.checkProjectSettingsExclusions": false,
-    "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+//     "search.followSymlinks": false,
+//     "zenMode.centerLayout": false,
+//     "typescript.disableAutomaticTypeAcquisition": true,
+//     "javascript.format.enable": false,
+//     "typescript.format.enable": false,
+//     "typescript.validate.enable": false,
+//     "javascript.validate.enable": false,
+//     "typescript.tsdk": null,
+//     "typescript.tsc.autoDetect": "off",
+//     "git.countBadge": "off",
+//     "git.autorefresh": false,
+//     "java.configuration.checkProjectSettingsExclusions": false,
+//     "editor.suggestSelection": "first",
+//     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
 
-    "[json]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "cSpell.userWords": [
-        "ANTIPATTERN",
-        "FIGMA",
-        "Popen",
-        "eqeqeq",
-        "lastupdated",
-        "mkdir",
-        "rmtree",
-        "shutil",
-        "stylelint"
-    ],
-    "editor.fontLigatures": true,
-    "editor.matchBrackets": false,
-    "workbench.colorTheme": "Atom One Dark",
-    "html.format.endWithNewline": true,
-    "files.insertFinalNewline": true,
-    "files.trimFinalNewlines": true,
-    "vsicons.dontShowNewVersionMessage": true,
-    "python.jediEnabled": false,
-    "git.pullTags": false,
-    "search.useGlobalIgnoreFiles": true,
-    "gitlens.blame.ignoreWhitespace": true,
-    "eslint.alwaysShowStatus": true,
-    "eslint.autoFixOnSave": true,
-    "eslint.experimental.incrementalSync": true,
-    "workbench.iconTheme": "vscode-icons"
-}
+//     "[json]": {
+//         "editor.defaultFormatter": "vscode.json-language-features"
+//     },
+//     "cSpell.userWords": [
+//         "ANTIPATTERN",
+//         "FIGMA",
+//         "Popen",
+//         "eqeqeq",
+//         "lastupdated",
+//         "mkdir",
+//         "rmtree",
+//         "shutil",
+//         "stylelint"
+//     ],
+//     "editor.fontLigatures": true,
+//     "editor.matchBrackets": false,
+//     "workbench.colorTheme": "Atom One Dark",
+//     "html.format.endWithNewline": true,
+//     "files.insertFinalNewline": true,
+//     "files.trimFinalNewlines": true,
+//     "vsicons.dontShowNewVersionMessage": true,
+//     "python.jediEnabled": false,
+//     "git.pullTags": false,
+//     "search.useGlobalIgnoreFiles": true,
+//     "gitlens.blame.ignoreWhitespace": true,
+//     "eslint.alwaysShowStatus": true,
+//     "eslint.autoFixOnSave": true,
+//     "eslint.experimental.incrementalSync": true,
+//     "workbench.iconTheme": "vscode-icons"
+// }
