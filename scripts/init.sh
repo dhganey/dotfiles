@@ -118,5 +118,13 @@ code --install-extension vscode-icons-team.vscode-icons
 code --install-extension wix.vscode-import-cost
 success 'Done.'
 
+status 'Stowing zshrc'
+stowfor zsh
+
+status 'Stowing git'
+stowfor git
+
+status 'Stowing tmux'
+stowfor tmux
 
 success 'Setup standardized.'
