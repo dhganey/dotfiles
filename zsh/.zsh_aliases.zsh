@@ -1,3 +1,6 @@
+# clear
+alias cls='clear'
+
 # ag
 alias ag='\ag --pager="less -RS"'
 

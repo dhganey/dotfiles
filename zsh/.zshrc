@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-source ~/.bash_profile &>/dev/null
+# source ~/.bash_profile &>/dev/null
 export ZSH=$HOME/.oh-my-zsh
 export ZSH_CUSTOM=$HOME/.dotfiles/zsh
 export LC_ALL=en_US.UTF-8  
@@ -14,6 +14,7 @@ source ~/.zsh_aliases.zsh
 ## https://github.com/sindresorhus/pure
 autoload -U promptinit; promptinit
 PURE_PROMPT_SYMBOL=$
+PURE_GIT_PULL=0	
 zstyle :prompt:pure:prompt:success color green
 prompt pure
 
@@ -25,3 +26,5 @@ fi
 
 export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"  # Added by n-install (see http://git.io/n-install-repo).
 
+# Launch tmux
+tmux
