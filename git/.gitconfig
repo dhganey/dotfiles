@@ -1,3 +1,6 @@
+[include]
+	path=.gitconfig-redfin
+	path=.gitconfig-personal
 [alias]
     co = checkout
 	st = status
@@ -51,9 +54,6 @@
 
 [push]
 	default = current
-[user]
-	name = David Ganey
-	email = david.ganey@redfin.com
 [filter "lfs"]
 	process = git-lfs filter-process
 	required = true
