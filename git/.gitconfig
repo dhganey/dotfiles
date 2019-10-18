@@ -29,6 +29,7 @@
     # excludesfile = ~/.gitignore
     # attributesfile = ~/.gitattributes
 	preloadIndex = true
+	pager = less -X 
 
 [credential]
 	helper = osxkeychain
