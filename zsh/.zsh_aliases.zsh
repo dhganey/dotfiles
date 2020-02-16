@@ -7,7 +7,9 @@ alias ag='\ag --pager="less -RS"'
 # tmux
 alias tm="tmux attach || tmux new"
 
-# # Git
+# Git
+alias gti="git"
+
 # alias g="git"
 # alias gs="git status -s"
 # alias gsl="git status --long"
