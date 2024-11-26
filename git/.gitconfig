@@ -1,12 +1,9 @@
-[include]
-	path=.gitconfig-redfin
-	path=.gitconfig-personal
 [alias]
     co = checkout
 	st = status
 	hist=log --pretty=format:\"%Cred%h %Cgreen%cd%Creset %s %C(bold blue)[%an]%C(yellow)%d%Creset\" --graph --color --date=short
 	aliases=!git config -l | grep 'alias\\.' | sed 's/alias\\.\\([^=]*\\)=\\(.*\\)/\\1\\= \\2/'
-	ac = git add --all && git commit
+	ac = !git add --all && git commit
 	marge = merge
 	cp = cherry-pick
 	po = push origin HEAD
@@ -33,6 +30,7 @@
     # attributesfile = ~/.gitattributes
 	preloadIndex = true
 	pager = diff-so-fancy | less --tabs=4 -RFX
+	editor = idea --wait
 
 [credential]
 	helper = osxkeychain
@@ -53,9 +51,13 @@
     nice = "%C(yellow)%h%C(reset) %C(white)%s%C(cyan)%d%C(reset) -- %an; %ar"
 
 [push]
-	default = current
+	default = simple
 [filter "lfs"]
 	process = git-lfs filter-process
 	required = true
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
+[user]
+	#name = davidganeydd
+	name = David Ganey
+	email = david.ganey@doordash.com
