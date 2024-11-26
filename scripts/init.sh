@@ -76,7 +76,7 @@ status 'Installing pure prompt'
 npm install --global pure-prompt
 
 # Install TPM
-$ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 ## Install vundle
 status 'checking out vundle (vim bundler)'
