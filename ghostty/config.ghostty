@@ -1,0 +1,20 @@
+keybind = global:ctrl+space=toggle_quick_terminal
+
+#Visuals
+quick-terminal-screen = main
+quick-terminal-size = 50%
+quick-terminal-animation-duration=0
+quick-terminal-autohide=false
+background-opacity=.95
+background-blur=16
+theme=Catppuccin Mocha
+#font-thicken=true
+#font-thicken-strength=1
+#adjust-cell-height=1
+
+#Behavior
+copy-on-select = clipboard
+scrollback-limit = 100000000
+keybind = shift+enter=text:\n
+
+
